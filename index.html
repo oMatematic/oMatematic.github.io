@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Alex Ramos</title>
+    <!--Google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <!--Dev Icons fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <h1>teste</h1>
+
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Alex Ramos</h2>
+            <img class="user" src="img/imagem.jpg" alt="Alex Ramos">
+            <p> Estágiario da <img class="logo" src="img/uol.png" alt="Compasso Uol"><span class="Empresa"> Compasso Uol</span> na divisão de Data Analitics</p>
+            <ul id="social-container">
+                <li> <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li> <a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li> <a href="#" target="_blank"><ion-icon name="logo-discord"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:alex.ramos_f1@hotmail.com">alex.ramos_f1@hotmail.com</a>
+            
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Alex Ramos</h1>
+            <p id="title"><span class="highlight">Desenvolvedor </span></p>
+            <p> Graduado em Análise e Desenvolvimento de Sistemas pela UNIFACS. Atualmente, estou cursando pós-graduação em Inteligência Artificial na mesma instituição. Desempenho o papel de estagiário na Compasso UOL, onde aplico e aprimoro meus conhecimentos práticos voltados para a área de Data Analytics. Essa experiência proporciona uma valiosa oportunidade de crescimento e aplicação dos conceitos aprendidos ao longo da minha jornada acadêmica. </p>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p id="description">Conheca as tecnologias que o pai tem as manhas</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"><span class="frase">HTML 5</span></i>
+                    <i class="devicon-css3-plain colored"><span class="frase">CSS 3</span></i>
+                    
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-python-plain colored"><span class="frase">Python 3</span></i>
+                 
+                    
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Database</p>
+                    <i class="devicon-sqlite-plain"><span class="frase">SQlite</span></i>
+                 
+                    
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-linux-plain "><span class="frase">Linux</span></i>
+                 
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
